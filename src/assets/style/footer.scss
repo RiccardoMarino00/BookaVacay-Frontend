@@ -1,0 +1,146 @@
+footer {
+    background-color: var(--blue);
+    bottom: 0;
+}
+
+.row-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 40px;
+}
+
+.container-footer {
+    color: white;
+    overflow-y: hidden;
+    max-width: 100%;
+}
+
+.footer-boolean {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-boolean a {
+    width: 70%;
+}
+
+.footer-boolean img {
+    width: 100%;
+}
+
+.footer-text {
+    width: 60%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.footer-programmers {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.member a {
+    color: currentColor !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member h4 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.linkedin-link {
+    color: var(--light--blue) !important;
+    font-size: 20px;
+}
+
+.member p {
+    font-size: 10px;
+}
+
+
+/* --------------------------RESPONSIVE PC------------------------------------- */
+
+@media (min-width: 480px) {
+
+    .divider-member {
+        border: 1px solid var(--light--blue);
+        width: 100px;
+        margin: 8px auto;
+    }
+
+    .divider-footer {
+        border: 1px solid var(--light--blue);
+        width: 1px;
+        height: 100px;
+    }
+
+}
+
+
+/* --------------------------RESPONSIVE PHONE------------------------------------- */
+
+
+@media (max-width: 480px) {
+
+    .row-footer {
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .footer-boolean a {
+        width: 150px;
+    }
+
+    .footer-boolean {
+        width: 100%;
+    }
+
+    .footer-boolean img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer-text {
+        text-align: center;
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .footer-programmers {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .member h4 {
+        font-size: 25px;
+    }
+
+    .member p {
+        font-size: 12px;
+    }
+
+    .divider-member {
+        border: 1px solid var(--light--blue);
+        width: 50px;
+        margin: 10px auto;
+    }
+
+    .divider-footer {
+        border: 1px solid var(--light--blue);
+        height: 1px;
+        width: 100px;
+        margin: 30px auto;
+    }
+
+}
